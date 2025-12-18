@@ -1,4 +1,3 @@
-# lite_12.py
 # If you get DB schema errors once, delete expenses.db and restart.
 
 import streamlit as st
@@ -815,3 +814,4 @@ with tab3:
                 labels={"category": "Category", "amount_paid": "Total Spent (₹)"},
             )
             st.plotly_chart(fig, use_container_width=True)
+
